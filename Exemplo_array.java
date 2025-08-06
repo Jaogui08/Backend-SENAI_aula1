@@ -10,15 +10,15 @@ public class Exemplo_array {
 		nomes.add("Mario");
 		nomes.add("João");
 		nomes.add("Simas");
-		nomes.add("Dani");
+		/*nomes.add("Dani");
 		nomes.add("Romeu");
 		nomes.add("Ronaldo");
-		
+		*/
 		
 		try {
 			System.out.print("Nome: " + nomes.get(5));
 		} catch (Exception erro) {
-			System.out.println("Não existe um 6° nome nessa lista");
+			System.out.println("Nome não encontrado");
 		}
 
 	}
